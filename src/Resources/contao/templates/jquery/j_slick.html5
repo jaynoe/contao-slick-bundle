@@ -1,0 +1,19 @@
+<?php
+// Add Slick-CSS to CSS-Bundles
+$GLOBALS['TL_CSS'][] = 'bundles/contaoslick/css/slick.css|static';
+$GLOBALS['TL_CSS'][] = 'bundles/contaoslick/css/slick-theme.css|static';
+?>
+<script src="bundles/contaoslick/js/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slick_content_slider, .slick_gallery_slider').slick({
+            // here you can set your specific options
+            // have a look at https://kenwheeler.github.io/slick/
+        });
+        // if you want to use your own class(es)/id to init slick,
+        // you can check the "ignore build-in classes" in each slick-bundle element
+        // then init your slick instance in this file:
+        // __ID__ = CSS-ID Content-Element; __CLASS__ = CSS-Klasse Content-Element
+        // $('__ID__ OR __CLASS__ .custom_slick').slick();
+    });
+</script>

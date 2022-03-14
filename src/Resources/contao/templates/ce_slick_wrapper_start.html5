@@ -1,0 +1,2 @@
+<div<?php if($this->cssID): ?><?= $this->cssID ?><?php endif; ?> class="<?= $this->class ?> block">
+    <div class="<?php if(!$this->ignore_bundle_classes): ?>slick_content_slider<?php else: ?>custom_slick<?php endif; ?>" data-slick='<?= $this->config ?>'>
