@@ -69,7 +69,6 @@ class SlickWrapperStartController extends AbstractContentElementController
             if(!empty($responsive[0]['breakpoint'])) {
                 $loops = count($responsive);
                 $this->config .= ', "responsive": [';
-                dump($loops);
                 $i=1;
                 foreach($responsive as $r) {
                     $this->config .= '{ "breakpoint": '.$r['breakpoint'].',';
