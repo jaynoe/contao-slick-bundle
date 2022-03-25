@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autoconfigure: true
+
+  Jaynoe\ContaoSlickBundle\Controller\ContentElement\SlickWrapperStartController:
+    tags: ["terminal42_service_annotation"]
+
+  Jaynoe\ContaoSlickBundle\Controller\ContentElement\SlickWrapperEndController:
+    tags: [ "terminal42_service_annotation" ]

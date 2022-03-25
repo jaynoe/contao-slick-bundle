@@ -1,0 +1,34 @@
+{
+  "name": "jaynoe/contao-slick-bundle",
+  "type": "contao-bundle",
+  "description": "Bundle for jQuery-Plugin slick",
+  "homepage": "https://github.com/jaynoe/contao-slick-bundle",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jannik Nölke",
+      "email": "me@jaynoe.de",
+      "homepage": "https://jaynoe.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "contao/core-bundle": "^4.9",
+    "menatwork/contao-multicolumnwizard": "^3.3"
+  },
+  "conflict": {
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0"
+  },
+  "extra": {
+    "contao-manager-plugin": "Jaynoe\\ContaoSlickBundle\\ContaoManager\\Plugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jaynoe\\ContaoSlickBundle\\": "src/"
+    }
+  }
+}
