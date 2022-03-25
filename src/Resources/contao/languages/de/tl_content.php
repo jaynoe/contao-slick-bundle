@@ -12,6 +12,7 @@ declare(strict_types=1);
  */
 
 $GLOBALS['TL_LANG']['tl_content']['slick_legend'] = 'slick Einstellungen';
+$GLOBALS['TL_LANG']['tl_content']['slickresponsive_legend'] = 'slick Responsive';
 
 $GLOBALS['TL_LANG']['tl_content']['slick_slidesToShow'] = [
     'Anzahl zu sehender Elemente',
@@ -66,4 +67,19 @@ $GLOBALS['TL_LANG']['tl_content']['slick_centerPadding'] = [
 $GLOBALS['TL_LANG']['tl_content']['ignore_bundle_classes'] = [
     'Bundle-Klassen ignorieren',
     'Standard-Instanz Klassen werden für slick ignoriert - weitere Infos im Template <em>j_slick.html5</em>'
+];
+
+$GLOBALS['TL_LANG']['tl_content']['slick_responsive'] = [
+    'Responsive Angaben',
+    'Hier können responsive Angaben für das Element ertellt werden. Infos hier: <a href="https://kenwheeler.github.io/slick/" target="_blank">kenwheeler.github.io/slick/</a>'
+];
+
+$GLOBALS['TL_LANG']['tl_content']['slick_responsive']['breakpoint'] = [
+    'Breakpoint',
+    'Breakpoint Angabe in Pixel'
+];
+
+$GLOBALS['TL_LANG']['tl_content']['slick_responsive']['responsive_settings'] = [
+    'Responsive Angaben (Syntax: "slidesToShow": 1, "dots": false, "arrows": false usw)',
+    ''
 ];
